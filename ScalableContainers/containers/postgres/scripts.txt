@@ -1,5 +1,0 @@
-docker run --name postgres --rm -v scalable-app_db_data:/var/lib/postgresql/data -p 5432:5432 -e POSTGRES_PASSWORD=password -d postgres
-
-psql -h localhost -p 5432 -U postgres
-
-
